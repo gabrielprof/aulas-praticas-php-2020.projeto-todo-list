@@ -1,5 +1,5 @@
 <?php
-include 'Repository.php';
+include_once('Repository.php');
 $repository = new Repository();
 
 if($_GET['item_a_fazer'] != ''){
