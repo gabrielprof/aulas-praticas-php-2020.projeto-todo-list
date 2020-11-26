@@ -1,0 +1,33 @@
+/* DIVS E BLOCOS*/
+html{
+    background-color: wheat;
+}
+
+#main-container{
+    background-color:whitesmoke;
+    padding: 8%;
+}
+
+table{
+    margin: 0 auto;
+}
+
+form, label, input, button, td, tr, th{
+    text-align: center;
+}
+
+/* TEXTOS */
+::selection{
+    background-color: tomato;
+}
+
+#titulo-principal{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.texto-padrao{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(36, 36, 36);
+}
